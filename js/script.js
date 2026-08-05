@@ -313,7 +313,45 @@ const treatments = [
     ],
     whatsappMessage:
       "Hello, I would like information and to book an appointment for a Nefertiti Lift with botulinum toxin."
-  }
+  } ,
+  {
+    // =====================================================
+    // TREATMENT 11
+    // =====================================================
+    id: "salmon",
+    name: "Salmon DNA Biostimulator",
+    image: "images/tratamientos/salmon.png",
+    shortDescription:
+      "It is a regenerative treatment performed with polynucleotides (PN) or polydeoxyribonucleotides (PDRN), which are DNA fragments obtained from salmon or trout through controlled purification and sterilization processes.",
+    question: "¿What is a salmon DNA collagen biostimulator?",
+    applicationTitle: "What are its benefits?",
+    additionalTitle: "Where can it be applied?",
+    content: [
+      "It is a regenerative treatment performed with polynucleotides (PN) or polydeoxyribonucleotides (PDRN), which are DNA fragments obtained from salmon or trout through controlled purification and sterilization processes.",
+      "These compounds are injected into the skin to support its natural repair processes and progressively improve its overall quality. They do not work like traditional dermal fillers: their main purpose is not to add volume, but to improve hydration, elasticity, texture, and the general appearance of the skin."
+    ],
+    applicationZones: [
+      "Improve skin hydration.",
+      "Promote a brighter and healthier-looking complexion.",
+      "Gradually improve skin elasticity and firmness.",
+      "Soften fine lines.",
+      "Improve skin texture and evenness.",
+      "Support the skin’s natural repair processes.",
+      "Improve the appearance of dull, thin, or damaged skin.",
+      "Support skin recovery after certain dermatological procedures."
+    ],
+    additionalZones: [
+      "Face: to improve hydration, texture, radiance, and fine lines.",
+      "Eye contour area: to address thin, dehydrated skin and superficial lines.",
+      "Cheeks: to improve skin quality and elasticity.",
+      "Neck: to treat fine lines and early loss of firmness.",
+      "Décolletage: to improve the texture and appearance of sun-damaged skin.",
+      "Back of the hands: to promote a more hydrated and rejuvenated appearance.",
+      "Scars or specific areas: only when the physician determines that the product and technique are appropriate."
+    ],
+    whatsappMessage:
+      "Hello, I would like information and to book an appointment for Salmon DNA Biostimulator."
+  }   
 ];
 
 /* =========================================================
@@ -572,3 +610,4 @@ const initializeRevealAnimations = () => {
 ========================================================= */
 renderTreatments();
 initializeRevealAnimations();
+
