@@ -131,33 +131,6 @@ const treatments = [
       "Hello, I would like information and to book an appointment for Recombinant Enzyme treatment."
   },
   {
-    id: "Fibroblastos",
-    name: "Fibroblasts",
-    image: "images/tratamientos/fibroblastos.png",
-    shortDescription:
-      "Fibroblasts are key cells responsible for producing collagen and elastin in the skin. Our treatment focuses on collecting, expanding, and cryopreserving your own fibroblasts.",
-    question: "What are fibroblasts?",
-    applicationTitle: "Our innovative treatment offers:",
-    additionalTitle: "Where can it be applied?",
-    content: [
-      "Fibroblasts are key cells responsible for producing collagen and elastin in the skin. Our treatment focuses on collecting, expanding, and cryopreserving your own fibroblasts."
-    ],
-    applicationZones: [
-      "Visible improvement in skin quality.",
-      "High safety and no downtime.",
-      "Helps delay visible signs of aging.",
-      "Helps reduce expression lines.",
-      "Hydrates the skin.",
-      "Activation of millions of fibroblasts.",
-      "A unique and advanced therapy in Peru."
-    ],
-    additionalZones: [
-      "Face."
-    ],
-    whatsappMessage:
-      "Hello, I would like information and to book an appointment for Fibroblast treatment."
-  },
-  {
     id: "pink-glow",
     name: "Pink Glow",
     image: "images/tratamientos/pink-glow.png",
